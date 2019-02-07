@@ -1,1 +1,4 @@
-# CIM111
+# Project Title
+   CIM 111
+## Purpose
+   Assignment 1
