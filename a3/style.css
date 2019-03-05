@@ -1,0 +1,66 @@
+body{background-image: url("leaves.jpg");
+}
+
+#h1 {
+	width:100%;
+	height:60px;
+	text-align: center;			/* used for the first time */
+	background-color: white;	
+	color: pink;
+	font-family: 'Impact'
+}
+
+
+div{font-family: 'Courier';
+}
+
+.magicBox{
+	color: orange;
+	font-family: 'Courier';
+	font-size: 20px;}
+
+.fancy {
+	font-family: 'Impact';
+	font-size: 24px
+}
+.moreInfo{display:block;}
+
+@media only screen and (min-width: 768px) {
+.magicBox{
+		background-color: white;
+		color:black;
+		width: 500px;
+	}
+}
+
+h2{font-family:'Impact';
+}
+
+th{font-family: 'Impact'
+}
+td{font-family: 'Courier' }
+
+h3{font-family: 'Impact'}
+
+p{font-family: 'Courier'}
+
+li{font-family: 'Courier'}
+
+nav{font-family: 'Courier';}
+
+a{
+	color: orange;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a:hover{color: black;
+border-style:solid;
+border-color: black}
+
+#address {width:100%;
+	height:40px;
+	text-align: center;
+	background-color: white;
+	font-family: 'Courier';
+color: pink;}
