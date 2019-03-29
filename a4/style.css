@@ -1,0 +1,140 @@
+body{font-size: 15px}
+
+a{text-decoration: none;
+	color: #E8E9CF;
+	font-size: 24px;
+	text-transform: uppercase;
+	align-content: center;
+	margin-right: 5px;
+	text-align: center;
+	font-size: 16px;
+
+}
+
+
+button{background: #689BA0;
+	color: #E8E9CF;
+	font-family: "Impact";
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 0;}
+
+button a:hover{text-decoration: underline}
+
+img{max-width: 100%;}
+
+.container{display: grid;
+	grid-gap: 20px;
+}
+
+.topSection{display: grid;
+	grid-gap: 20px;
+	grid-template-areas: "logo population"
+						"logo income"}
+
+.frosted a{color: #E1F3DB;
+	padding: 5px;
+	font-family: 'Impact';
+	font-size: 46px;
+	}
+
+.pageLogo {grid-area: logo;
+	min-height: 300px;
+	background-image: url("hialeah 4.jpg");
+	color: green;
+	background-size: cover;
+	background-position: bottom;
+	justify-content: start;
+	align-content: center;}
+
+.infoBox{background-color: #E1F3DB;
+	color: #4E3F40;
+	font-family: 'Impact';
+	display: grid;
+	align-items: center;
+	align-content: center;
+	}
+
+.infoBox p{margin:0;
+	align-content: center;}
+
+.price{font-size: 40px;
+	font-weight: 300} /*look up for this*/
+
+.population{grid-area: population;}
+
+.income{grid-area: income}
+
+.menu ul{display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	list-style-type: none;
+	}
+
+li{background-color: #E1F3DB;
+	margin-right: 10px;
+	text-align: center;
+	font-size: 24px;}
+
+.menu a{color: #4E3F40;
+text-decoration: none;
+text-transform:uppercase;
+font-family: 'Impact';
+margin-right: 30px;
+margin-bottom: 20px;
+}
+
+
+.features{display: grid;
+	grid-template-columns: repeat(4, 1fr);}
+
+.feature h3{ color: #689BA0;
+	font-family: 'Impact';
+	}
+
+.feature{background: #E8E9CF;
+	padding: 20px;
+	border: 1px grey;
+	text-align:center;}
+
+.feature icon{font-size: 40px;}
+
+.feature p{color: #4E3F40;
+	font-family: 'Courier';}
+
+
+.about{background-color: #E1F3DB;
+	color: #4E3F40;
+	font-family: 'Courier';
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center}
+
+
+@media (max-width: 700px){
+	.topSection{
+		grid-template-areas:
+		"logo logo"
+		"population income";
+	}
+	li{font-size: 14px;
+		margin-bottom: 20px;
+
+		height: 7px;}
+
+}
+@media (max-width: 500px){
+	.topSection{
+		grid-template-areas:
+		"logo"
+		"population"
+		"income"; 
+	}
+	.price{font-size: 24px;
+		font-weight: 300;
+		margin-left: 10px;
+		}
+
+		img{width: 200px;}
+		about{grid-template-columns: 200px}
+}
