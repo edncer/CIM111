@@ -1,0 +1,22 @@
+body{background-color: #D5E1C8}
+
+h1 {
+	width:100%;
+	height:60px;
+	background-color: white;	
+	color: orange;
+	font-family: 'bradley hand';
+	text-align: center;
+}
+
+h2 {width:100%;
+	font-family: 'bradley hand';
+	text-align: center;
+}
+
+p {width:100%;
+	font-family: 'bradley hand';
+	text-align: center;}
+
+.mouseover{background-color:white;}
+.mouseleave{background-color: #D5E1C8}
